@@ -1,0 +1,52 @@
+*{
+  margin :0;
+  padding : 0;
+  box-sizing: border-box;
+}
+.postCard:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  }
+.postCard h3{
+    height: 40px;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.loader{
+  position: fixed;
+  top:0;
+  left :0;
+  width : 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#fixed{
+  position:fixed;
+  top: 0;
+  left :0;
+  width:100%;
+  z-index:1;
+}
+#postContainer{
+  position: relative;
+  margin-top: 100px;
+  z-index : 0;
+  margin-top:420px ;
+}
+.formCard{
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+   rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+     rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+      rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  
+}
+.list-Card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
